@@ -1,0 +1,16 @@
+{
+  "name": "usermanagementsystem",
+  "version": "0.0.1",
+  "description": "A user management system created specifically for express framework.",
+  "author": {
+    "name": "Hansie Schreuder",
+    "email": "hansieschreuder@gmail.com"
+    },
+  "main": "./index.js",
+  "test": "mocha test/tests.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "mongoose": "3.8.15",
+    "jsonwebtoken": "7.1.1"
+  }
+}
